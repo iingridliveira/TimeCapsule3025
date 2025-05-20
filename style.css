@@ -18,3 +18,46 @@ body {
     --text-color: #FFFFFF;
     --text-secondary-color: #B8C0E0;
 }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px;
+
+}
+nav a {
+  margin: 0 10px; 
+  color: #00ffff; 
+  justify-content: center;
+
+}
+article h1,h3 {
+  color: #00ffff;
+  margin: 10px;
+
+}
+article p {
+
+  margin: 10px;
+  color: #00ffff;
+}
+section img {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+}
+#container {
+    display: flex;
+    justify-content: space-between; 
+                                       
+}
+#container div {
+    flex: 1;                                 
+}
+.titulo h1 {
+    font-size: 30px;
+    text-align: center;
+    color: silver; 
+}
