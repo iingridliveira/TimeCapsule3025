@@ -28,6 +28,7 @@ header {
   align-items: center;
   margin: auto;
   padding: 20px;
+  border-bottom: 2px solid var(--accent-color);
 }
 nav a {
   margin: 0 10px;
@@ -43,7 +44,13 @@ article p {
   margin: 10px;
   color: #00ffff;
 }
+section {
+
+  border: 2px solid var(--accent-color);
+  
+}
 section img {
+
   width: 80%;
   display: block;
   margin: auto;
@@ -61,13 +68,20 @@ section img {
   text-align: start;
   color: silver;
 }
-
+/* inicio da galeria*/
 .galeria {
-
   padding: 20px;
-  border: 2px solid var(--accent-color);
+  
 
 }
+.galeria h1 {
+  width: 100%;
+  text-align: start;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  font-size: xx-large
+}
+
 .container-galeria {
   display: flex;
   flex-wrap: wrap;
@@ -76,12 +90,7 @@ section img {
  
 }
 
-.galeria h1 {
-  width: 100%;
-  text-align: start;
-  color: var(--accent-color);
-  margin-bottom: 20px;
-}
+
 
 .card {
   background-color: var(--background-secondary-color);
@@ -91,9 +100,11 @@ section img {
   padding: 20px;
   margin: 10px;
   text-align: center;
-  color: #00ffff;
+  color: var(--accent-color)
+ 
 }
 .card:hover {
   border: 6px solid var(--text-color);
 }
   
+/* fim da galeria*/
