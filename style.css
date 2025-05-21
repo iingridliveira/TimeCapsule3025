@@ -9,7 +9,7 @@ body {
   color: var(--text-color);
   margin: 0 auto;
   max-width: 90vw;
-  border: 1px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
   border-radius: 10px;
 }
 
@@ -65,7 +65,7 @@ section img {
 .galeria {
 
   padding: 20px;
-  border: 1px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
 
 }
 .container-galeria {
@@ -79,13 +79,13 @@ section img {
 .galeria h1 {
   width: 100%;
   text-align: start;
-  color: #00ffff;
+  color: var(--accent-color);
   margin-bottom: 20px;
 }
 
 .card {
   background-color: var(--background-secondary-color);
-  border: 1px solid var(--accent-color);
+  border: 2px solid var(--accent-color);
   border-radius: 10px;
   width: 45%;
   padding: 20px;
@@ -93,3 +93,7 @@ section img {
   text-align: center;
   color: #00ffff;
 }
+.card:hover {
+  border: 6px solid var(--text-color);
+}
+  
