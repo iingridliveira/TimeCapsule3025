@@ -63,12 +63,17 @@ section img {
 }
 
 .galeria {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+
   padding: 20px;
- 
   border: 1px solid var(--accent-color);
+
+}
+.container-galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+ 
 }
 
 .galeria h1 {
@@ -79,7 +84,7 @@ section img {
 }
 
 .card {
-  background-color: #1a1f35;
+  background-color: var(--background-secondary-color);
   border: 1px solid var(--accent-color);
   border-radius: 10px;
   width: 45%;
