@@ -1,55 +1,137 @@
 <!DOCTYPE html>
-<html lang="pt-br">
 
+<html lang="pt-br">
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon.ico">
+    <title>Museu Virtual</title>
 </head>
 
-<body>
-    <header id="inicio">
-        <img src="logo12.png" height="100px" >     
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#Sobre_o_Museu">Sobre o Museu</a>
-            <a href="#galeria">Galeria</a>
-            <a href="#footer">Contato</a>
-        </nav>
-    </header>
-    <hr>
-    <section class="titulo">
-        <h1>Museu Virtual </h1>
-    </section>
-    <section>
-        <img src="museu2.png">
-    </section>
-    <hr>
-    <article>
-        <h1 id="Sobre_o_Museu">Sobre o Museu</h1>
-        <div id="container">
-            <div>
-                <h3>Missão Institucional</h3>
-                <p>O TimeCapsule 3025 é o principal centro de estudos da Era Pré-Singularidade (2000–2050), período reconhecido como a “Infância Digital da Humanidade”. Dedicamo-nos à coleta, preservação e interpretação de objetos físicos e digitais do início do século XXI. <br><br>
-                Nossa missão é garantir que as gerações futuras compreendam os avanços e desafios enfrentados pela civilização antes da Fusão Cérebro-Nuvem (FCN). Através de tecnologias de reconstrução quântica, recriamos experiências cotidianas, estilos de vida, mídias e dispositivos obsoletos com precisão histórica. <br><br>
-                Com base na Diretriz Histórica 7.89-Q da Federação Galáctica, promovemos a educação trans-temporal e o diálogo entre espécies interplanetárias sobre o legado da humanidade terrestre.</p>
-            </div>
-            <div>
-                <h3>Arqueodigital</h3>
-                <p>Nossos curadores neuronais utilizam protocolos patenteados de: -Decodificação de Mídia Órfã:
-                <br>-Recuperação de formatos obsoletos ("JPEG", "MP4") através de emuladores quânticos
-                <br><br>-Antropologia Reversa: Reconstrução de comportamentos sociais a partir de vestígios digitais ("redes sociais", "streaming")<br><br>-Bioarqueologia: Análise de adaptações fisiológicas humanas a dispositivos primitivos (síndrome do "pescoço de texto", degeneração por "scroll")
-            </p>
-            </div>
-        </div>
-    </article>
+    <body>
+        <header>
+            <img src="assets/imgs/logo.png" height="90px" >
 
-    <hr>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="inicio">
+                <h1>Museu Virtual 2025</h1>
+
+                <p><em>Explore o passado digital com os olhos do futuro</em></p>
+        
+                <img src="assets/imgs/museu2.png" alt="Imagem ilustrativa do museu do futuro">
+            </section>
+
+            <section  id="sobre">
+                <h1 id="Sobre_o_Museu" >Sobre o Museu</h1>
+
+                <div class="conteiner-sobre">
+                    <article id="missao-institucional">
+                        <h3>Missão Institucional</h3>
+                
+                        <p>
+                            O TimeCapsule 3025 é o principal centro de estudos da Era Pré-Singularidade (2000–2050), período reconhecido como a “Infância Digital da Humanidade”. Dedicamo-nos à coleta, preservação e interpretação de objetos físicos e digitais do início do século XXI.
+                        </p>
+
+                        <p>
+                            Nossa missão é garantir que as gerações futuras compreendam os avanços e desafios enfrentados pela civilização antes da Fusão Cérebro-Nuvem (FCN). Através de tecnologias de reconstrução quântica, recriamos experiências cotidianas, estilos de vida, mídias e dispositivos obsoletos com precisão histórica.
+                        </p>
+
+                        <p>
+                            Com base na Diretriz Histórica 7.89-Q da Federação Galáctica, promovemos a educação trans-temporal e o diálogo entre espécies interplanetárias sobre o legado da humanidade terrestre.
+                        </p>
+                    </article>
+
+                    <article id="arqueodigital">
+                        <h3>Arqueodigital</h3>
+
+                        <p>
+                            Nossos curadores neuronais utilizam protocolos patenteados de:
+                        </p>
+
+                        <ul>
+                            <li>Decodificação de Mídia Órfã</li>
+
+                            <li>Recuperação de formatos obsoletos ("JPEG", "MP4") através de emuladores quânticos</li>
+
+                            <li>Antropologia Reversa: Reconstrução de comportamentos sociais a partir de vestígios digitais ("redes sociais", "streaming")</li>
+
+                            <li>Bioarqueologia: Análise de adaptações fisiológicas humanas a dispositivos primitivos (síndrome do "pescoço de texto", degeneração por "scroll")</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+        
+            <section id="galeria" class="galeria">
+                <h1>GALERIA</h1>
+                <div class="container-galeria">
+                    <div class="card">
+            
+                        <h3>Carros Elétricos</h3>
+                        <img src="img/elétrico.png" alt="Imagem 1">
+                        <p>Tesla Model 3 Highland (2024/2025)</p>
+                    </div>
+                    <div class="card">
+            
+                        <h3>Carros a Combustão</h3>
+                        <img src="img/carrocombustivel.png" alt="Imagem 2">
+                        <p>Honda Civic 2025</p>
+                    </div>
+                    <div class="card">
+                        <h3>Híbridos Comuns</h3>
+                        <img src="img/Hibrido.png" alt="Imagem 2">
+                        <p>Toyota Corolla Hybrid 2025.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Outros tipos diversos</h3>
+                        <img src="img/carrohidrogenio.png" alt="Imagem 2">
+                        <p>Hyundai Nexo 2025, o SUV movido a célula de combustível de hidrogênio</p>
+                    </div>
+             </section>
+        </main>
+
+        <footer>
+            <p>
+                &copy; 3025 - Todos os direitos reservados
+            </p>
+
+            <ul class="social-links">
+                <li>
+                    <a href="https://github.com/iingridliveira" class="github-link">
+                        <img src="assets/imgs/github-logo.svg" alt="Logo do GitHub" class="icon">
+                        Ingrid
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/Vivianx1918" class="github-link">
+                        <img src="assets/imgs/github-logo.svg" alt="Logo do GitHub" class="icon">
+                        Vivian
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://github.com/jailsonbezerra" class="github-link">
+                        <img src="assets/imgs/github-logo.svg" alt="Logo do GitHub" class="icon">
+                        Jailson
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+<body>
    
-    <section></section>
-    <section></section>
-    <footer></footer>
 </body>
 
 </html>
