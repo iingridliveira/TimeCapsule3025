@@ -1,3 +1,24 @@
+
+:root{
+  --main-color:  #2B50AA;
+  --secondary-color: #6E3CBC;
+  --accent-color:  #00F5FF;
+  --background-color: #0A0E21;
+  --background-secondary-color: #1A1F35;
+  --text-color: #FFFFFF;
+  --text-secondary-color: #B8C0E0;
+}
+/*pq a fonte da letra não está pegando*/
+
+@font-face {
+  font-family: fontederobo;
+  src: url(../fonte/fontederobo.ttf);
+}
+@font-face {
+  font-family: fontenumero;
+  src: url(../fonte/fontenumero.otf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +26,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'fontederobo','fontenumero' ,sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
   margin: 5px auto;
@@ -20,15 +41,7 @@ main > section {
   border-bottom: var(--accent-color) 1px solid;
 }
 
-:root{
-    --main-color:  #2B50AA;
-    --secondary-color: #6E3CBC;
-    --accent-color:  #00F5FF;
-    --background-color: #0A0E21;
-    --background-secondary-color: #1A1F35;
-    --text-color: #FFFFFF;
-    --text-secondary-color: #B8C0E0;
-}
+
 
 header {
   display: flex;
