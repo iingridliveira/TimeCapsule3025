@@ -1,10 +1,18 @@
+@font-face {
+  font-family: fontederobo;
+  src: url(fonte/fontederobo.ttf);
+}
+@font-face {
+  font-family: fontenumero;
+  src: url(fonte/fontenumero.otf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'fontederobo','fontenumero' ,sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
   margin: 0 auto;
@@ -30,6 +38,10 @@ header {
   margin: auto;
   padding: 20px;
 }
+header a {
+  text-decoration: none;
+}
+
 nav a {
   margin: 0 10px;
   color: #00ffff;
@@ -41,6 +53,10 @@ nav a {
 nav a:hover {
 
 }
+
+
+article h1,h3 {
+
 article h1,
 h3 {
   color: #00ffff;
@@ -70,9 +86,13 @@ section img {
   flex: 1;
 }
 .titulo h1 {
-  font-size: 30px;
-  text-align: start;
-  color: silver;
+
+    font-size: 40px;
+    text-align: center;
+    color: silver; 
+    margin: 10px;
+
+ 
 }
 /* inicio da galeria*/
 .galeria {
@@ -111,6 +131,7 @@ section img {
 }
 .card:hover {
   border: 6px solid var(--text-color);
+
 }
   
 /* fim da galeria*/
