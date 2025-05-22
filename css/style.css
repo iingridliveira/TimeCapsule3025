@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 5px auto;
+  max-width: 90%;
+
+  border: var(--accent-color) 1px solid;
+  border-radius: 8px;
+}
+
+main > section {
+  border-top: var(--accent-color) 1px solid;
+  border-bottom: var(--accent-color) 1px solid;
+}
+
+:root{
+    --main-color:  #2B50AA;
+    --secondary-color: #6E3CBC;
+    --accent-color:  #00F5FF;
+    --background-color: #0A0E21;
+    --background-secondary-color: #1A1F35;
+    --text-color: #FFFFFF;
+    --text-secondary-color: #B8C0E0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.menu ul li {
+  margin-right: 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: bold;
+}
+
+.menu ul li a:hover {
+  color: var(--text-color);
+  transition-duration: 0.2s;
+}
+
+#inicio h1 {
+  margin: 10px 0;
+}
+
+section img {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+#sobre {
+  padding: 10px;
+  color: var(--accent-color);
+}
+.conteiner-sobre {
+  display: flex;
+  gap: 20px; 
+  flex-wrap: wrap;
+}
+
+.conteiner-sobre article {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+}
+
+.conteiner-sobre h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.conteiner-sobre p {
+  line-height: 1.6;
+  text-indent: 10px;
+  margin-bottom: 16px;
+}
+
+.conteiner-sobre ul {
+  padding-left: 30px;
+}
+
+.conteiner-sobre ul li {
+  margin-bottom: 10px;
+}
+
+.titulo h1 {
+    font-size: 30px;
+    text-align: center;
+    color: var(--text-secondary-color); 
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin: 0 20px;
+}
+
+footer .social-links li {
+  margin: 0 20px;
+}
+
+footer .social-links li a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+}
+
+.social-links li a:hover {
+  color: var(--accent-color);
+  transition-duration: 0.2s;
+}
