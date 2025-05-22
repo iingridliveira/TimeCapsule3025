@@ -12,11 +12,11 @@
 
 @font-face {
   font-family: fontederobo;
-  src: url(../fonte/fontederobo.ttf);
+  src: url(../assets/fonte/fontederobo.ttf);
 }
 @font-face {
   font-family: fontenumero;
-  src: url(../fonte/fontenumero.otf);
+  src: url(../assets/fonte/fontenumero.otf);
 }
 
 * {
@@ -32,7 +32,7 @@ body {
   margin: 5px auto;
   margin: 0 auto;
   max-width: 90vw;
-  border: var(--accent-color) 1px solid;
+  border: var(--accent-color) 2px solid;
   border-radius: 8px;
 }
 
@@ -49,12 +49,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  
 }
 
 .menu ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+
 }
 
 .menu ul li {
@@ -222,3 +225,18 @@ footer .social-links li a {
 }
   
 /* fim da galeria*/
+/* responsividade */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  .menu ul {
+  justify-content: center;
+  }
+  
+.card {
+  border-radius: 10px;
+  width: 100%;
+}
+}
