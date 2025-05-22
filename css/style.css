@@ -37,7 +37,7 @@ body {
 }
 
 main > section {
-  border-top: var(--accent-color) 1px solid;
+
   border-bottom: var(--accent-color) 1px solid;
 }
 
@@ -75,9 +75,9 @@ header {
   transition-duration: 0.2s;
 }
 
-#inicio h1 {
-  margin: 10px 0;
-}
+
+
+
 
 section img {
   width: 80%;
@@ -87,8 +87,17 @@ section img {
 }
 
 #sobre {
-  padding: 10px;
+ padding-top: 70px;
+ padding-bottom: 70px;
+  color: var(--text-color);
+}
+#sobre h1 {
+  width: 100%;
+  text-align: start;
   color: var(--accent-color);
+  margin-bottom: 20px;
+  padding-inline-start:20px;
+  font-size: xx-large
 }
 .conteiner-sobre {
   display: flex;
@@ -122,11 +131,21 @@ section img {
 }
 
 .titulo h1 {
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
-    color: var(--text-secondary-color); 
+    justify-self: center;
+    color: var(--accent-color);
+    margin: 10px;
+    
 }
-
+.titulo {
+  border-top: var(--accent-color) 1px solid;
+  display: flex;                
+  flex-direction: column;     
+  align-items: center;          
+  justify-content: center;      
+  padding: 20px 0;              
+}
 footer {
   display: flex;
   justify-content: space-between;
@@ -154,6 +173,8 @@ footer .social-links li a {
 
   display: flex;
   align-items: center;
+  padding: 20px;
+
 }
 
 .social-links li a:hover {
@@ -193,7 +214,7 @@ footer .social-links li a {
   padding: 20px;
   margin: 10px;
   text-align: center;
-  color: var(--accent-color)
+  color: var(--text-color);
  
 }
 .card:hover {
